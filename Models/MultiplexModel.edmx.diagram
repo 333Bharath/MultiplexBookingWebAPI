@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6f9a8fec51824d6ebfb67904fc077fbf" Name="Diagram1">
+        <EntityTypeShape EntityType="MOVIEDBModel.BOOKING" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MOVIEDBModel.FEEDBACK" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MOVIEDBModel.FOOD" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MOVIEDBModel.HALL" Width="1.5" PointX="1.5" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="MOVIEDBModel.HALL_CAPACITY" Width="1.5" PointX="3.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MOVIEDBModel.MAGAZINE" Width="1.5" PointX="3.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MOVIEDBModel.MOVIE" Width="1.5" PointX="1.5" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="MOVIEDBModel.SHOW" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MOVIEDBModel.USER" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="MOVIEDBModel.FK_BOOKING_SHOW" ManuallyRouted="false" />
+        <AssociationConnector Association="MOVIEDBModel.FK_BOOKING_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="MOVIEDBModel.FK_FEEDBACK_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="MOVIEDBModel.FK_FOOD_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="MOVIEDBModel.FK_HALL_CAPACITY_HALL" ManuallyRouted="false" />
+        <AssociationConnector Association="MOVIEDBModel.FK_MAGZINE_HALL" ManuallyRouted="false" />
+        <AssociationConnector Association="MOVIEDBModel.FK_SHOW_HALL" ManuallyRouted="false" />
+        <AssociationConnector Association="MOVIEDBModel.FK_SHOW_MOVIE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
