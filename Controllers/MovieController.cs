@@ -9,9 +9,12 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using MultiplexBookingWebAPI.Models;
+using System.Web.Http.Cors;
+using System.Web.UI.WebControls;
 
 namespace MultiplexBookingWebAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class MovieController : ApiController
     {
         private MOVIEDBEntities db = new MOVIEDBEntities();
